@@ -25,7 +25,7 @@ Before running the DebugFS Browser GUI, ensure you have the following dependenci
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/debugfs-browser-gui.git
+   git clone https://github.com/PradnyeshUtpat/Debugfs-browser.git
    ```
 2. Change into the project directory:
 
