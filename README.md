@@ -29,19 +29,19 @@ Before running the DebugFS Browser GUI, ensure you have the following dependenci
    ```
 2. Change into the project directory:
 
-```bash
-cd debugfs-browser-gui
-```
+   ```bash
+   cd debugfs-browser-gui
+   ```
 3. Compile the application:
 
-```bash
-gcc -o debugfs-browser main.c treeview.c `pkg-config --cflags --libs gtk+-3.0`
-```
+   ```bash
+   gcc -o debugfs-browser main.c treeview.c `pkg-config --cflags --libs gtk+-3.0`
+   ```
 4. Run the DebugFS Browser GUI:
-
-```bash
-./debugfs-browser
-```
+   
+   ```bash
+   ./debugfs-browser
+   ```
 ## Usage 😃
 - Upon launching the application, set the mount point for DebugFS.
 - The application will display the contents of DebugFS in a treeview.
